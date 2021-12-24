@@ -282,16 +282,6 @@ function Cloudy.CreateLib(ClaName, themeList)
     Name.Text = ""..player.DisplayName.." (@"..player.Name..")"
 
     Avatar.Image = game.Players:GetUserThumbnailAsync(UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size48x48)
-
-    local Tabs = {}
-
-    local first = true
-
-    function Tabs:NewTab(tabName)
-        tabName = tabName or "Tab"
-        
-    end
-    return Tabs
 end
 
 return Cloudy
